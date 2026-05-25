@@ -12,7 +12,7 @@
 # print("Your name is", mark)
 
 # now I'm making codes more advanced and organised
-name = input("Enter your name, please. ").strip().title()
+name = input("Enter your name, please. ").strip().title() #name.capitalize() use only first  character of the string
 age = int(input("Enter your age, please. "))
 mark = int(input("Enter your mark, please. "))
 
