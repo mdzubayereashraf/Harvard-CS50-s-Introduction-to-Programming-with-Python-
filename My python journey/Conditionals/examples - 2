@@ -1,0 +1,13 @@
+# showing grade
+number = int(input("Enter your number: "))
+
+# Using if-elif-else statement
+if number >= 90:
+    print("Your grade is A")
+elif number >= 80:
+    print("Your grade is B")
+elif number >= 70:
+    print("Your grade is C")
+else:
+    print("Your grade is D")
+    

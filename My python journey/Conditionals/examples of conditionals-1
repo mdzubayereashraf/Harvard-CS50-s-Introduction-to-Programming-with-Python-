@@ -2,6 +2,7 @@
 x = int(input("Enter a number: "))
 y = int(input("Enter another number: "))
 
+#initializing conditionals
 if x > y:
     print(f"{x} is greater than {y}")
 elif x < y:
