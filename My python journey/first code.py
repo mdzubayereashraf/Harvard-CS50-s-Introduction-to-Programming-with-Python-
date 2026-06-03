@@ -16,3 +16,4 @@ c = int("253")
 print(a)
 print(b)
 print(c)
+print("Meow\n" * 5, end="") # end="" is used to avoid the new line after the last print statement. By default, print adds a new line at the end of its output, but by setting end="" we can change that behavior.
