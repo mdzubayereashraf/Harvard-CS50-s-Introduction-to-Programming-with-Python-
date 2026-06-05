@@ -1,0 +1,12 @@
+#creating a simple calculator
+while True:
+    num1 = float(input("Enter a number: "))
+    num2 = float(input("Enter another number: "))
+    sum = num1+num2
+    minus = num1-num2
+    multiply = num1*num2
+    divide = num1/num2     
+    print(f"The sum of {num1} and {num2} is {sum}")
+    print(f"The difference of {num1} and {num2} is {minus}")   
+    print(f"The product of {num1} and {num2} is {multiply}")
+    print(f"The quotient of {num1} and {num2} is {divide}")
