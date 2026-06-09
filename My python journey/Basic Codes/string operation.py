@@ -10,6 +10,10 @@ print(merge_string1)
 merge_string2 = str1 +' '+ str2 # you needda give a space between ' and '
 print(merge_string2)
 
+# Repeating a string
+repeat_string = "Hello! " * 3
+print(repeat_string)
+
 # spiting line in string
 paragraph1 = "This an example of a string.\nCan't you see it?"
 print(paragraph1)
